@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomeVC.swift
 //  Swoosh
 //
 //  Created by Mark Rabins on 8/20/17.
