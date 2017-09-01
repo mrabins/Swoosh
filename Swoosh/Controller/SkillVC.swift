@@ -14,24 +14,21 @@ class SkillVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        player = Player()
-        
+                
         print(player.desiredLeague ?? "no data")
-
     }
-
-
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func beginnerButtonPressed(_ sender: Any) {
+        player.selectedSkillLevel = "Beginner"
     }
-    */
-
+    
+    @IBAction func ballerButtonPressed(_ sender: Any) {
+        player.selectedSkillLevel = "Baller"
+    }
+    
+    @IBAction func finishButtonPressed(_ sender: Any) {
+        let alert = UIAlertController(title: "Opps", message: "We appear to be having a hard time connecting to our server. Please try again", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
+        present(alert, animated: true, completion: nil)
+    }
 }

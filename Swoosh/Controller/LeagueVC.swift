@@ -20,8 +20,6 @@ class LeagueVC: UIViewController {
         player = Player()
     }
 
- 
-    
     @IBAction func onMensTapped(_ sender: Any) {
         selectLeague(leagueType: "mens")
         
@@ -29,8 +27,6 @@ class LeagueVC: UIViewController {
     
     @IBAction func onWomensTapped(_ sender: Any) {
         selectLeague(leagueType: "womens")
-        
-        
     }
     
     @IBAction func onCoedTapped(_ sender: Any) {
@@ -48,15 +44,9 @@ class LeagueVC: UIViewController {
     }
     
     // MARK: - Navigation
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let skillVC = segue.destination as? SkillVC {
             skillVC.player = player
         }
-        
     }
- 
-    
-   
-    
 }

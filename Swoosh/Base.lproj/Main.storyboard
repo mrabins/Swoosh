@@ -233,6 +233,9 @@
                                         <state key="normal" title="Beginner">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="beginnerButtonPressed:" destination="ba6-Vt-w3D" eventType="touchUpInside" id="KAZ-eQ-I7J"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6D-Ly-wQ4" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="187" y="0.0" width="207" height="50.000000000000028"/>
@@ -244,6 +247,9 @@
                                         <state key="normal" title="Baller">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="ballerButtonPressed:" destination="ba6-Vt-w3D" eventType="touchUpInside" id="EmI-TH-0ez"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -257,6 +263,9 @@
                                 <state key="normal" title="FINISH">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="finishButtonPressed:" destination="ba6-Vt-w3D" eventType="touchUpInside" id="8DO-bs-2Lf"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zgw-GD-GLT">
                                 <rect key="frame" x="20" y="60.000000000000007" width="414" height="64.666666666666686"/>
