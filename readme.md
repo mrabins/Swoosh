@@ -4,8 +4,11 @@
 # Go All In
 ![Alt text](https://github.com/mrabins/Swoosh/blob/screenshots/Go%20All%20In.png)
 
-# Hats
-![Alt text](https://github.com/mrabins/CoderSwag/blob/screenshots/Hats.png)
+# League Selection
+![Alt text](https://github.com/mrabins/Swoosh/blob/screenshots/Desired%20League%20Selection.png)
 
-# Hoodies
-![Alt text](https://github.com/mrabins/CoderSwag/blob/screenshots/Hoodies.png)
+# Skill Selection
+![Alt text](https://github.com/mrabins/Swoosh/blob/screenshots/Skill%20Selection.png)
+
+# Error
+![Alt text](https://github.com/mrabins/Swoosh/blob/screenshots/Error.png)
